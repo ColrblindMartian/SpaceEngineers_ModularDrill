@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularDrillV3", "ModularDrillV3.csproj", "{63A9803F-4135-4DB5-85AB-BA417C257566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A9803F-4135-4DB5-85AB-BA417C257566}.Debug|x64.ActiveCfg = Debug|x64
+		{63A9803F-4135-4DB5-85AB-BA417C257566}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94CB1DA-8B07-4B19-BFB2-5DB6490D673E}
+	EndGlobalSection
+EndGlobal
