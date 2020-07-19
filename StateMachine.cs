@@ -23,7 +23,7 @@ namespace IngameScript
     {
         // enum does not work in Space Engineers thats why we have this two classes
         // has to be in order of execution
-        // I could probably connect this "enums" with the states from the state machine better
+        // I could/should probably connect this "enums" with the states from the state machine better
         // but I am too lazy doing so ;)
         public static class eDrillState
         {
@@ -73,13 +73,6 @@ namespace IngameScript
                     return prevState;
                 }
             }
-
-            //public void IncrementState()
-            //{
-            //    State++;
-            //    if (State >= eDrillState.eInvalidMax)
-            //        State = 0;
-            //}
         }
         
         // saves only the state of the creation of the module
@@ -108,17 +101,9 @@ namespace IngameScript
                     return prevState;
                 }
             }
-
-            //public void IncrementState()
-            //{
-            //    State++;
-            //    if (State >= eModuleBuildState.eInvalidMax)
-            //        State = 0;
-            //}
         };
     };
 
-    // states for module build process
     // \todo Add state for finishing drill process returning to a
     // state where we can start again from the beginning to make it 
     // easier moving the drill around on a moving platform

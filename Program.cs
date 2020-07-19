@@ -137,7 +137,7 @@ namespace IngameScript
 
 
             // load data
-            if (!Load()) // don't load for testing
+            if (!Load())
             {
                 Echo("could not load saved data - set state to default values");
                 // first start of script
@@ -151,8 +151,6 @@ namespace IngameScript
         {
             // saves The States and the name of the bottom connector
             // because this one will change every time a new module gets added to the drill
-            //string strStateDrill = drillState.State.ToString();
-            //string strStateModuleBuild = moduleBuildState.State.ToString();
 
             if (drillState == null) return;
             if (moduleBuildState == null) return;
@@ -238,7 +236,7 @@ namespace IngameScript
                         if(command[1] == "on")
                         {
                             Echo("toggle on received");
-                            // we want to run the script every 100 Tiks, 100 Tiks enought?
+                            // we want to run the script every 10 Tiks
                             Runtime.UpdateFrequency = UpdateFrequency.Update10;
                             EnableDrill(true);
                         }
